@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+body,
+a,
+header,
+p,
+h1,
+h2,
+h3,
+footer {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding-top: 6rem;
+}
+.bg-nav {
+  background-color: #121619;
+}
+
+.image-header {
+  background-image: url("../img/post-image.jpg");
+  height: 30vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.color-fondo {
+  background-color: #121619;
+  text-align: center;
+  margin: 85px 579px 87px 579px;
+}
+
+.img-final {
+  height: 34px;
+  width: 122px;
+}
+
+.naomi {
+  background-image: url("../img/naomi-thai.png");
+  width: 178px;
+  height: 180px;
+}
+
+.page-item {
+  border-top-right-radius: 10rem;
+  border-bottom-right-radius: 10rem;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 10px;
+  background-color: #6c6e70;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #121619;
+}
