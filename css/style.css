@@ -13,20 +13,35 @@ footer {
   padding: 0;
 }
 
-header {
-  padding-top: 6rem;
-}
+
 .bg-nav {
   background-color: #121619;
 }
 
+
+
 .image-header {
-  background-image: url("../img/post-image.jpg");
-  height: 30vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+    background-image: url("../assets/img/post-image.jpg");
+    height: 90vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    flex-flow: column wrap;
+  }
+
+.image-header h1 {
+    width: 30%;
+}
+
+.bg-nav {
+    background-color: #121619;
+  }
+.logo-nav {
+    width: 4.875em;
 }
 
 .color-fondo {
