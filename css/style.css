@@ -46,11 +46,6 @@ header {
   height: 180px;
 }
 
-.page-item {
-  border-top-right-radius: 10rem;
-  border-bottom-right-radius: 10rem;
-}
-
 .button {
   padding: 10px;
   border-radius: 20px;
