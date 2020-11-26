@@ -28,6 +28,7 @@ footer {
     background-size: cover;
     position: relative;
     align-items: center;
+    flex-direction: column;
     justify-content: center;
     flex-flow: column wrap;
   }
